@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bcmenu"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="700" />
+
+        <Button
+            android:id="@+id/btus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="430"
+            android:background="#0000"
+            android:text="关于我们" />
+
+        <Button
+            android:id="@+id/buttonhelp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="380"
+            android:background="#0000"
+            android:text="帮助" />
+
+        <Button
+            android:id="@+id/buttonsetsound"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="420"
+            android:background="#0000"
+            android:text="声音设置" />
+
+        <Button
+            android:id="@+id/buttonexit"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="420"
+            android:background="#0000"
+            android:text="退出程序" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="300" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/function"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btsearch"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="7"
+                android:background="#0000"
+                android:src="@drawable/function1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btlearn"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="7"
+                android:background="#0000"
+                android:src="@drawable/function4" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/bttest"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="7"
+                android:background="#0000"
+                android:src="@drawable/function3" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            
+            <ImageButton
+                android:id="@+id/btlaugh"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="7"
+                android:background="#0000"
+                android:src="@drawable/function5" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+</LinearLayout>

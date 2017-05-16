@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/menu"
+        android:background="@drawable/bcmenu"
+        >
+        <TextView 
+            android:layout_weight="700"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"/>
+        <Button 
+            android:layout_weight="430"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="关于我们"
+            android:background="#0000"
+            android:id="@+id/btus"/>
+        <Button 
+            android:layout_weight="380"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="帮助"
+            android:background="#0000"
+            android:id="@+id/buttonhelp"/>
+        <Button 
+            android:layout_weight="420"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="声音设置"
+            android:background="#0000"
+            android:id="@+id/buttonsetsound"/>
+        <Button 
+            android:layout_weight="420"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="退出程序"
+            android:background="#0000"
+            android:id="@+id/buttonexit"/>
+        
+        <TextView 
+            android:layout_weight="300"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/welcome"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5" />
+
+            <ImageButton
+                android:id="@+id/welcomebutton"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="6"
+                android:background="#0000"
+                android:src="@drawable/welcomebutton" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
